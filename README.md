@@ -1,1 +1,2 @@
 # Currency-Conversion
+This project is a currency converter application that allows users to quickly and accurately convert between different currencies. Users can enter the source currency, the destination currency and the amount they want to convert and convert at current exchange rates.
