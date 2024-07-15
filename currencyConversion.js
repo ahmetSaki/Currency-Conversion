@@ -10,8 +10,8 @@ document.getElementById('convertBtn').addEventListener('click', () => {
 
 
 
-    const apiKey = 'fca_live_mrBxmdvK0f2GoRn09TiQt3YhofUTERF2rLVhgtm0';
-    const url = `https://api.freecurrencyapi.com/v1/latest?apikey=${apiKey}&currencies=${toCurrency}&base_currency=${fromCurrency}`;
+
+    const url = `https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_mrBxmdvK0f2GoRn09TiQt3YhofUTERF2rLVhgtm0&currencies=${toCurrency}&base_currency=${fromCurrency}`;
 
     fetch(url)
         .then(response => {
