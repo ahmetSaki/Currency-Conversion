@@ -36,7 +36,29 @@ button:hover {
     background-color: #0056b3;
 }
 
+.currency-input {
+    display: inline-block;
+    transition: transform 0.5s, opacity 0.5s;
+    position: relative;
+}
+
+#toCurrency.swap {
+    transform: translateX(-150px);
+    opacity: 0;
+}
+
+#fromCurrency.swap {
+    transform: translateX(150px);
+    opacity: 0;
+}
+
 #weather {
     margin-top: 20px;
     font-size: 18px;
+}
+.arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
 }
